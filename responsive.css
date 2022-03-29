@@ -1,8 +1,5 @@
 /*medium layout 1280px.*/
 @media only screen and (min-width:992px) and (max-width:1200px){
-body{
-	background-color: red;
-}
 }
 /*tablet layout 768px.*/
 @media only screen and (min-width:768px) and (max-width:991px){
@@ -15,6 +12,12 @@ body{
 	}
 	.calculator{
 		width: 100%;
+	}
+	div.col-12{
+		width:100%;
+	}
+	div.col-3{
+		width:25%;
 	}
 	.calculator-body{
 		margin-top: 20px;
