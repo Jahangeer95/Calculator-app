@@ -1,6 +1,4 @@
-.calculator-body{
-    margin-top: 100px;
-}
+
 .calculator{
     width: fit-content;
     height: fit-content;
@@ -10,6 +8,7 @@
     border-radius: 30px;
     background-color: cornsilk;
     box-shadow: 3px 5px 30px rgba(0,0,0,2);
+    margin-top: 100px;
 }
 .nopadding {
     padding: 0 !important;
@@ -25,6 +24,10 @@
 input{
     border:transparent;
     margin:0;
+}
+input:hover, input:focus{
+    box-shadow: none;
+    outline: none;
 }
 #display-box{
     font-size:16px;

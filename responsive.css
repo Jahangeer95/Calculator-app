@@ -8,18 +8,17 @@
 /*mobile layout 320px.*/
 @media only screen and (max-width:767px){
 	.container{
-		width:100%;
+		width: 100% !important;;
+		margin: 0!important;
 	}
 	.calculator{
 		width: 100%;
+		margin-top: 20px;
 	}
 	div.col-12{
 		width:100%;
 	}
 	div.col-3{
 		width:25%;
-	}
-	.calculator-body{
-		margin-top: 20px;
 	}
 }
