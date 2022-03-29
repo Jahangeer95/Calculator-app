@@ -1,6 +1,6 @@
 
 .calculator{
-    width: fit-content;
+    width: 100%;
     height: fit-content;
     padding:20px;
     border: 15px solid darkslategray;
@@ -9,6 +9,7 @@
     background-color: cornsilk;
     box-shadow: 3px 5px 30px rgba(0,0,0,2);
     margin-top: 100px;
+    
 }
 .nopadding {
     padding: 0 !important;
